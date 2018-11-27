@@ -127,7 +127,7 @@ class Articles(Base):
 
     @property
     def _cards(self):
-        return self.data.card
+        return self.data.cards
 
     @property
     def _cardlistInfo(self):
